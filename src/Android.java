@@ -4,7 +4,10 @@
 public class Android extends Robot {
 
     @Override
-    public void act(){
+    void act(){
         System.out.println("Android robot walks");
+    }
+  public void transform(){
+        System.out.println("Transformed to helperbot.");
     }
 }

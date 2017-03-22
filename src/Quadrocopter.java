@@ -4,7 +4,11 @@
 public class Quadrocopter extends Robot {
 
     @Override
-    public void act() {
+    void act() {
         System.out.println("Quadrocopter flyes");
+    }
+    @Override
+   public void transform(){
+        System.out.println("Transformed to drone.");
     }
 }

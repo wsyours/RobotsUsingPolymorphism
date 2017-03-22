@@ -8,7 +8,7 @@ public class Worm extends Robot implements Transformable{
         System.out.println("Worm robot crawls");
     }
     @Override
-    void transform(){
-        System.out.println();
+    public void transform(){
+        System.out.println("Transformed to mole.");
     }
 }
